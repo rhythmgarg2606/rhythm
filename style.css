@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@200&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    text-shadow : 8px 8px 10px #0000008c;
+    background:  linear-gradient(45deg, #180101, #3874c8);
+
+}
+.calculator{
+    border: 1px solid #101011;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 6px 20px rgba(113, 115, 119, 0.5) ;
+}
+input{
+    width: 440px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 6px 15px rgba(98, 5, 5, 0.1) ;
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    font-weight: 800;
+    color: white
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 90px;
+    
+    height: 40px;
+    margin:30px;
+    border-radius: 40%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cravendunnill.co.uk%2Fproduct%2Frock-art-hexagon-mini-negro-310x265%2F&psig=AOvVaw2hBjmFQuWlMe5XNNw9KkCm&ust=1694594695844000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCf6azXpIEDFQAAAAAdAAAAABAE);
+    color: #060606;
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer ;
+}
+button:hover{
+    background-color: rgb(167, 115, 115);
+    color: rgb(205, 194, 194);
+}
+.equalbtn{
+    background-color: rgb(117, 119, 144);
+}
+.operator{
+    color: rgb(65, 12, 15);
+}
